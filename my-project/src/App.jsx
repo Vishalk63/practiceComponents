@@ -2,6 +2,7 @@
 import './App.css'
 import DialogComponent from './PracticeComponents/DialogComponent'
 import DrawerComponent from './PracticeComponents/DrawerComponent'
+import SheetComponent from './PracticeComponents/SheetComponent'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     </h1>
 
     {/* <DrawerComponent/> */}
-    <DialogComponent/>
+    {/* <DialogComponent/> */}
+    <SheetComponent/>
     </div>
   )
 }
