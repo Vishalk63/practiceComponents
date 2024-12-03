@@ -1,6 +1,6 @@
 
 import './App.css'
-import Home from './PracticeComponents/Home'
+import DrawerComponent from './PracticeComponents/DrawerComponent'
 
 function App() {
 
@@ -9,6 +9,8 @@ function App() {
     <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
+
+    <DrawerComponent/>
     </>
   )
 }
