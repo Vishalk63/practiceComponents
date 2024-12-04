@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
   	extend: {
+
+		clipPath: {
+			'inset': 'inset(0 round 20px)', // कस्टम क्लिप-पाथ
+		  },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
