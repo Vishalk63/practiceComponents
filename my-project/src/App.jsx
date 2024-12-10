@@ -4,6 +4,7 @@ import CarouselComponent from './PracticeComponents/CarouselComponent'
 import DialogComponent from './PracticeComponents/DialogComponent'
 import DrawerComponent from './PracticeComponents/DrawerComponent'
 import Login from './PracticeComponents/Login'
+import MyCustomPopup from './PracticeComponents/MyCustomPopup'
 import RoundedCard from './PracticeComponents/RoundedCard'
 import SheetComponent from './PracticeComponents/SheetComponent'
 
@@ -17,11 +18,12 @@ function App() {
       </h1>
 
       {/* <DrawerComponent/> */}
-      <DialogComponent/>
+      {/* <DialogComponent/> */}
       {/* <SheetComponent/> */}
       {/* <CarouselComponent /> */}
       {/* <RoundedCard/> */}
       {/* <Login/> */}
+      <MyCustomPopup/>
     </div>
   )
 }
